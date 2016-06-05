@@ -26,6 +26,7 @@ class TxtTools(object):
         finally:
             f.close()
             self.savef.close()
+
 c = TxtTools()
 print(c.index)
 print(c.path)
